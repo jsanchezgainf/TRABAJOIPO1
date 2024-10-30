@@ -1,0 +1,104 @@
+:root{
+    --color-headerf:  rgb(60, 182, 182);
+    --color-main: rgb(61, 170, 170);
+}
+
+header{
+    background-color: var(--color-headerf);
+    color: aliceblue;
+    margin: 0px;
+    padding-top: 15px;
+    margin-top: 0;
+    text-align: center;
+}
+h1{
+    margin-top: 0;
+    font-size: 40px;
+}
+nav {
+    display: flex;                
+    justify-content: center;       
+    align-items: end;           
+    height: 38px;
+    margin-top: 40px;
+    background-color: rgba(29, 88, 76, 0.413);
+    
+}
+  
+nav ul{
+    display: flex;                
+    list-style: none; 
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0;
+}
+  
+nav li{
+    display: inline-block;
+    margin: 10px;  
+}
+  
+nav a{
+    color: aliceblue;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: rgb(240, 248, 255);
+}
+
+footer{
+    background-color: rgba(46, 144, 137, 255);
+    color: aliceblue;
+    padding: 7px;
+}
+footer a{
+    color: rgb(243, 198, 115);
+}
+section{
+    margin: 20px auto;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 800px;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+
+.descripcion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.descripcion img{
+    width: 35%;
+    border-radius: 10px;
+    height: 400px;
+    margin: 5%;
+}
+
+.listabeneficios{
+    display: flex;
+    justify-content: end;
+
+}
+.listabeneficios img{
+    width: 150px;
+}
+
+.benh2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.textocolocar{
+    display: flex;
+    justify-content: space-around;
+}
+.textocolocar a{
+    color: rgb(7, 132, 119);
+}
